@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+# 1. 가상 환경
+.venv
+venv/
+env/
+*.env
+uv.lock
+
+# 2. 민감한 정보
+.env
+*.env.*
+!.env.example
+credentials.json
+token.json
